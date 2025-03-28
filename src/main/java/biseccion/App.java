@@ -19,6 +19,8 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("programm"), 313, 313);
         stage.setScene(scene);
+        stage.setTitle("Metodo de Bisección");
+        stage.setResizable(false);
         stage.show();
     }
 
